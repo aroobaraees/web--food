@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header :start */
+
+@font-face {
+    font-family: myFont;
+
+    src : url(fontfamyli/Roboto-VariableFont_wdth\,wght.ttf);
+}
+.logodiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+
+.logodiv img{
+    width: 7%;
+}
+
+.logodiv span{
+    text-transform: uppercase;
+    font-size: 20px; 
+    font-family: myFont;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px 0px;
+    
+}
+
+.navlinks{
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.navlinks li{
+    list-style: none;
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    gap: 10px;
+    font-family: myFont;
+
+}
+
+
+#orange{
+    color: #ff8367;
+}
+
+/* header end */
+
+
+
+/* hero section start  */
+  
+.hero {
+       display: flex;
+       align-items: center;
+       gap: 20px;
+       justify-content: center;
+}
+
+.left{
+    width: 50%;
+}
+
+.right{
+    width: 50%;
+    padding: 100px;
+}
+
+.left img{
+    width:600px;
+    padding-left: 30px;
+    width: 95%;
+    margin-top: 40px;
+}
+
+.right h1{
+    font-size: 65px;
+    color: ff8367 ;
+    text-transform: uppercase;
+    font-family: myFont;
+
+}
+
+.right p{
+    font-size: 25px;
+    margin-top: 20px;
+    color: black;
+    font-family: myFont;
+ 
+}
+
+.but {
+    margin-top: 25px;
+    padding: 15px 35px;
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-family: myFont;
+    text-transform: uppercase;
+}
+
+
+.small-title{
+    color: #ff8367;
+}
