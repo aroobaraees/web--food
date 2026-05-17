@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
@@ -7,10 +7,12 @@
 
 @font-face {
     font-family: myFont;
+    font-style: italic;
 
-    src : url(fontfamyli/Roboto-VariableFont_wdth\,wght.ttf);
+    src: url(fontfamyli/Roboto-VariableFont_wdth\,wght.ttf);
 }
-.logodiv{
+
+.logodiv {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -18,46 +20,52 @@
 }
 
 
-.logodiv img{
+.logodiv img {
     width: 7%;
 }
 
-.logodiv span{
+.logodiv span {
     text-transform: uppercase;
-    font-size: 20px; 
+    font-size: 20px;
     font-family: myFont;
 
 }
 
-header{
+header {
     width: 100%;
     display: flex;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    padding: 30px 0px;
-    
+    padding: 20px 0px;
+    position: fixed;
+
 }
 
-.navlinks{
+.navlinks {
     display: flex;
-    gap: 30px;
-    padding-right: 50px;
+    gap: 50px;
+    /* padding-right: 199px; */
+    padding-left: 50px;
 }
 
-.navlinks li{
+.navlinks li {
     list-style: none;
 }
 
-.navlinks li a{
+.navlinks a {
     text-decoration: none;
     color: rgb(5, 5, 5);
-    font-size: 15px;
+    font-size: 20px;
     gap: 10px;
     font-family: myFont;
-
+    text-transform: capitalize;
 }
 
 
-#orange{
+.navlinks :hover {
+    color: #ff8367;
+}
+
+#orange {
     color: #ff8367;
 }
 
@@ -66,58 +74,177 @@ header{
 
 
 /* hero section start  */
-  
+
 .hero {
-       display: flex;
-       align-items: center;
-       gap: 20px;
-       justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
 }
 
-.left{
+.left {
     width: 50%;
 }
 
-.right{
+.right {
     width: 50%;
-    padding: 100px;
+    padding: 200px;
 }
 
-.left img{
-    width:600px;
+.left img {
+    width: 50%;
     padding-left: 30px;
     width: 95%;
     margin-top: 40px;
+    padding-left: 110px;
+
 }
 
-.right h1{
-    font-size: 65px;
-    color: ff8367 ;
+.right h1 {
+    color: ff8367;
     text-transform: uppercase;
     font-family: myFont;
-
+    font-size: 60px;
 }
 
-.right p{
+.right p {
     font-size: 25px;
     margin-top: 20px;
     color: black;
     font-family: myFont;
- 
+
 }
 
-.but {
-    margin-top: 25px;
-    padding: 15px 35px;
-    background-color: blue;
-    border-radius: 8px;
-    color: white;
-    font-size: 15px;
+.button {
+    -top: 25px;
+    padding: 10px 20px;
+    background-color: #3D4FF3;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400px;
     font-family: myFont;
+    text-transform: marginuppercase;
+    border: none;
+    margin-top: 20px;
     text-transform: uppercase;
+    transition: 0.3s;
+
 }
 
 
-.small-title{
+.but :hover {
+    background-color: #ff8367;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+.small-title {
     color: #ff8367;
 }
+
+/* hero section end */
+
+
+/* section 1 start */
+
+.bigdiv {
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+
+.heading h1 {
+    display: block;
+    color: black;
+    font-family: myFont;
+    font-size: 35px;
+    font-weight: 400px;
+    font-style: italic;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+
+.maindiv{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px 50px;
+}
+
+
+.container{
+     width: 30%;
+     background-color: white;
+     border-radius: 20px;
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+    box-shadow:  0 .8px 16px rgba(0, 0, 0, .15) !important;
+    padding: 25px;
+}
+
+
+.container img {
+    width: 100%;
+    
+}
+
+.content h2{
+     font-size: 25px;
+    font-weight:900px;  
+    font-family: myfont;
+    font-style: italic;
+    color: black;
+}
+
+
+.con-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container span{
+    
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: myfont;
+     color: #ff8367;
+}
+
+
+.container button{
+    padding: 10px 20px;
+    background-color: #3D4FF3;
+    border-radius: 5px;
+    color: #fff;
+    font-size:16px ;
+    font-weight: 400px;
+    font-family: myfont;
+    text-transform: uppercase;
+    border: none;
+    text-transform: marginuppercase;
+    transition: 0.3s;
+}
+
+
+.con-btn  :hover {
+      background-color: #ff8367;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+
+.content div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* section 1 end  */
