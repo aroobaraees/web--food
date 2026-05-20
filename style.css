@@ -37,13 +37,12 @@ header {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     padding: 20px 0px;
     position: fixed;
-
+    z-index: 1; 
 }
 
 .navlinks {
     display: flex;
     gap: 50px;
-    /* padding-right: 199px; */
     padding-left: 50px;
 }
 
@@ -248,3 +247,82 @@ header {
 }
 
 /* section 1 end  */
+
+
+
+/* section 2 stsrt */
+  
+.mainbox{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+    margin-bottom:30px ;
+
+}
+
+.leftbox{
+    width: 50%;
+    /* padding: 50px; */
+
+}
+
+.rightbox{
+    width: 50%;
+    /* padding: 50px; */
+}
+
+
+img {
+    width: 100%;
+    
+}
+
+.boxes{
+    background-color: white;
+    display: flex;
+    margin: 30px;    
+    width: 90%;
+    height: 100px;
+    margin-left: 10px;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #fff;
+    padding: 40px 0px;
+    border-radius: 16px;
+    align-items: center;
+
+
+}
+
+
+
+.icon img{
+   width: 100px;
+   padding: 30px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+    font-family: myfont;
+    font-style:italic;
+    padding: 20px 50px 20px 0px;
+}
+
+.mainbox{
+    padding: 50px;
+}
+
+.bigimg{
+    margin: 30px 50px;
+}
+
+/* section 2 end */
