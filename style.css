@@ -38,6 +38,7 @@ header {
     padding: 20px 0px;
     position: fixed;
     z-index: 1; 
+    background-color: white;
 }
 
 .navlinks {
@@ -218,7 +219,7 @@ header {
 
 
 .container button{
-    padding: 10px 20px;
+  padding: 10px 20px;
     background-color: #3D4FF3;
     border-radius: 5px;
     color: #fff;
@@ -232,10 +233,10 @@ header {
 }
 
 
-.con-btn  :hover {
-      background-color: #ff8367;
-    color: black;
-    transform: scale(1.1);
+.con-btn :hover {
+  background-color: #ff8367;
+   color: black;
+  transform: scale(1.1);
 
 }
 
@@ -326,3 +327,133 @@ img {
 }
 
 /* section 2 end */
+
+/* form section start */
+
+.form-section{
+    /* width: 100%; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:  0 .8px 16px rgba(0, 0, 0, .15) !important;
+    border: none;
+    margin:70px ;
+    margin-bottom: 70px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sub-hdg{
+  text-align: center;
+  pad: 50px 0px;
+  text-transform: uppercase;
+  font-style:italic;
+font-family: myfont;
+}
+
+
+.form-email{
+    display: flex;
+    align-content: center;
+    margin-left:120px ;
+}
+input[type="email"]{
+    width:650px;
+    height: 40px;
+    flex: 1;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-family: myfont;
+
+}
+
+.sub-btn{
+           padding: 10px 20px;
+    background-color: #3D4FF3;
+    border-radius: 5px;
+    color: #fff;
+    font-size:16px ;
+    font-weight: 400px;
+    font-family: myfont;
+    text-transform: uppercase;
+    border: none;
+    text-transform: marginuppercase;
+    transition: 0.3s;
+} 
+
+.sub-btn:hover{
+      background-color: #ff8367;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+/* form section end */
+
+
+/* footer section start */
+
+.footer-container{
+display: flex;
+flex-direction: row;
+gap: 200px;
+/* padding-left: 120px; */
+background-color: white;
+padding: 60px 100px 50px 100px ;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+
+.footer-box h2{
+    padding-bottom: 10px;
+    font-size:20px ;
+    font-weight: 500px;
+    font-family: myfont;
+    font-style: italic;
+}
+
+.footer-box p{
+    font-family: myfont;
+    font-style: italic;
+    font-size:17px; 
+    font-weight: 400px; 
+}
+
+.copyright{
+    text-align: center;
+    color:black;
+}
+
+
+.copyright p{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 50px;
+    font-family: myfont;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 17px;
+    color: black;
+
+}
+.color {
+color: #ff8367;
+}   
+
+
+/* footer section end*/
+
+
+
+
